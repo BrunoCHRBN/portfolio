@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-gallery-capture",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reusable Playwright screenshot capture pipeline for Bruno Vinicius's portfolio gallery plates (1600x1000 WebP).",
+  "scripts": {
+    "capture": "node capture-gallery.mjs",
+    "capture:projcatalogos": "node capture-gallery.mjs --only=projcatalogos",
+    "capture:cutsync": "node capture-gallery.mjs --only=cutsync",
+    "capture:caderno": "node capture-gallery.mjs --only=caderno"
+  },
+  "dependencies": {
+    "playwright-core": "^1.52.0"
+  }
+}

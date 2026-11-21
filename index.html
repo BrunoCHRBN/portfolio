@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bruno Vinícius — Portfólio / Archive</title>
+  <meta
+    name="description"
+    content="Acervo editorial em 3D de monografias de software de Bruno Vinícius: Zorin Copilot, Caderno Digital, ProjCatálogos e CutSync. Araraquara, São Paulo — Brasil."
+  />
+  <meta name="author" content="Bruno Vinícius da Silva Santos" />
+  <meta name="theme-color" content="#EDEBE6" />
+
+  <meta property="og:title" content="Bruno Vinícius — Portfólio / Archive" />
+  <meta
+    property="og:description"
+    content="Estante editorial 3D de monografias de software de Bruno Vinícius: Zorin Copilot, Caderno Digital, ProjCatálogos e CutSync."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:locale:alternate" content="en_US" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Bruno Vinícius — Portfólio / Archive" />
+  <meta
+    name="twitter:description"
+    content="Acervo editorial 3D de projetos de software: Zorin Copilot, Caderno Digital, ProjCatálogos e CutSync."
+  />
+
+  <link
+    rel="icon"
+    type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='6' fill='%23EDEBE6'/%3E%3Crect x='4' y='4' width='56' height='56' rx='3' fill='none' stroke='%231F3FB0' stroke-width='2'/%3E%3Crect x='14' y='12' width='12' height='40' fill='%231F3FB0'/%3E%3Crect x='30' y='12' width='20' height='40' fill='none' stroke='%23141414' stroke-width='2.5'/%3E%3Ccircle cx='40' cy='32' r='5' fill='%231F3FB0'/%3E%3C/svg%3E"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..500;1,6..72,400&display=swap"
+  />
+
+  <link rel="stylesheet" href="./src/styles.css" />
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "#bruno-vinicius",
+          "name": "Bruno Vinícius da Silva Santos",
+          "alternateName": "Bruno Vinícius",
+          "email": "mailto:brusantos777@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Araraquara",
+            "addressRegion": "SP",
+            "addressCountry": "BR"
+          },
+          "sameAs": [
+            "https://github.com/BrunoCHRBN",
+            "https://www.linkedin.com/in/bruno-vin%C3%ADcius-da-silva-santos/"
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "name": "Bruno Vinícius — Portfólio / Archive",
+          "numberOfItems": 4,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "SoftwareSourceCode",
+                "name": "Zorin Copilot",
+                "description": "Assistente nativo de inteligência artificial para desktop Linux integrado aos barramentos do sistema.",
+                "programmingLanguage": "Python",
+                "codeRepository": "https://github.com/BrunoCHRBN/zorin-copilot",
+                "author": { "@id": "#bruno-vinicius" }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "SoftwareSourceCode",
+                "name": "Caderno Digital",
+                "description": "Caderno web de escrita manuscrita sensível à pressão com reconhecimento geométrico e exportação vetorial.",
+                "programmingLanguage": "TypeScript",
+                "codeRepository": "https://github.com/BrunoCHRBN/caderno-digital",
+                "author": { "@id": "#bruno-vinicius" }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "SoftwareApplication",
+                "name": "ProjCatálogos",
+                "applicationCategory": "BusinessApplication",
+                "description": "Plataforma full stack de catálogo online multi-tema com pedido via WhatsApp e painel administrativo.",
+                "author": { "@id": "#bruno-vinicius" }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "SoftwareApplication",
+                "name": "CutSync",
+                "applicationCategory": "BusinessApplication",
+                "description": "Ecossistema multiplataforma de agendamento e operações com quatro aplicações sobre backend compartilhado.",
+                "url": "https://cut-sync.vercel.app",
+                "sameAs": "https://github.com/BrunoCHRBN/CutSync",
+                "author": { "@id": "#bruno-vinicius" }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  </script>
+</head>
+<body>
+  <div id="h-probe" class="h-probe" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <button
+      type="button"
+      id="btn-about"
+      class="lbl box topbar-about"
+      aria-haspopup="dialog"
+      aria-controls="about-sheet"
+    >SOBRE / ABOUT</button>
+
+    <div class="brand">
+      <h1 class="brand-name">Bruno Vinícius</h1>
+      <span class="brand-sub">PORTFÓLIO / ARCHIVE</span>
+    </div>
+
+    <span class="lbl topbar-year">ARQUIVO / ARCHIVE · 2026</span>
+  </header>
+
+  <main id="main-content" class="main-canvas">
+    <nav class="tabs-wrap" aria-label="Categorias / Categories">
+      <div class="tabs" id="tabs">
+        <span class="tab-indicator" id="tab-indicator" aria-hidden="true"></span>
+        <button type="button" class="lbl tab-btn" data-cat="all">TODOS / ALL</button>
+        <button type="button" class="lbl tab-btn" data-cat="system">SISTEMA / SYSTEM</button>
+        <button type="button" class="lbl tab-btn" data-cat="ink">TINTA / INK</button>
+        <button type="button" class="lbl tab-btn" data-cat="retail">VITRINE / RETAIL</button>
+        <button type="button" class="lbl tab-btn" data-cat="mobile">AGENDA / MOBILE</button>
+      </div>
+    </nav>
+
+    <section
+      class="shelf-section"
+      id="shelf-section"
+      aria-label="Acervo de projetos / Project archive"
+    >
+      <div class="stage" id="stage"></div>
+    </section>
+
+    <button
+      type="button"
+      id="open-ring"
+      class="open-ring"
+      aria-label="Abrir detalhes / Open project"
+      aria-haspopup="dialog"
+      aria-controls="detail-sheet"
+    >
+      <svg width="14" height="10" viewBox="0 0 14 10" fill="none" aria-hidden="true">
+        <path
+          d="M1 5H12.5M8.5 1L12.5 5L8.5 9"
+          stroke="currentColor"
+          stroke-width="1.3"
+          stroke-linecap="square"
+          stroke-linejoin="miter"
+        />
+      </svg>
+    </button>
+
+    <button
+      type="button"
+      id="arrow-prev"
+      class="arrow arrow-prev"
+      aria-label="Obra anterior / Previous project"
+    >
+      <svg width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true">
+        <path
+          d="M17 5H1.5M5.5 1L1.5 5L5.5 9"
+          stroke="currentColor"
+          stroke-width="1.2"
+          stroke-linecap="square"
+          stroke-linejoin="miter"
+        />
+      </svg>
+    </button>
+
+    <button
+      type="button"
+      id="arrow-next"
+      class="arrow arrow-next"
+      aria-label="Próxima obra / Next project"
+    >
+      <svg width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true">
+        <path
+          d="M1 5H16.5M12.5 1L16.5 5L12.5 9"
+          stroke="currentColor"
+          stroke-width="1.2"
+          stroke-linecap="square"
+          stroke-linejoin="miter"
+        />
+      </svg>
+    </button>
+
+    <div class="caption" id="caption" aria-live="polite" aria-atomic="true">
+      <h2 class="cap-mask cap-title" id="cap-title"></h2>
+      <p class="cap-mask cap-sub lbl" id="cap-sub"></p>
+      <p class="cap-mask cap-year" id="cap-year"></p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <span class="lbl footer-copy">© 2026 BRUNO VINÍCIUS. TODOS OS DIREITOS RESERVADOS.</span>
+    <nav class="footer-links lbl" aria-label="Contato e redes / Contact and social links">
+      <a
+        href="https://github.com/BrunoCHRBN"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="footer-link"
+      >GITHUB</a>
+      <span class="footer-sep" aria-hidden="true">/</span>
+      <a
+        href="https://www.linkedin.com/in/bruno-vin%C3%ADcius-da-silva-santos/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="footer-link"
+      >LINKEDIN</a>
+      <span class="footer-sep" aria-hidden="true">/</span>
+      <a href="mailto:brusantos777@gmail.com" class="footer-link">E-MAIL</a>
+    </nav>
+  </footer>
+
+  <div class="paper-grain" aria-hidden="true"></div>
+
+  <section
+    id="detail-sheet"
+    class="sheet detail-sheet"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="detail-title"
+    aria-hidden="true"
+  >
+    <header class="sheet-header">
+      <button type="button" id="detail-close" class="lbl box sheet-close">FECHAR / CLOSE</button>
+      <div class="brand sheet-brand" aria-hidden="true">
+        <span class="brand-name">Bruno Vinícius</span>
+        <span class="brand-sub">PORTFÓLIO / ARCHIVE</span>
+      </div>
+      <div class="lang-switch" role="group" aria-label="Idioma / Language">
+        <button
+          type="button"
+          id="lang-pt"
+          class="lbl lang-btn is-active"
+          data-lang="pt"
+          aria-pressed="true"
+        >PT</button>
+        <button
+          type="button"
+          id="lang-en"
+          class="lbl lang-btn"
+          data-lang="en"
+          aria-pressed="false"
+        >EN</button>
+      </div>
+    </header>
+
+    <div class="detail-grid detail-hero">
+      <div class="detail-info">
+        <div class="reveal-mask">
+          <p class="reveal-item lbl detail-sub" id="detail-sub"></p>
+        </div>
+        <div class="reveal-mask">
+          <h2 class="reveal-item sheet-title" id="detail-title"></h2>
+        </div>
+        <div class="reveal-mask">
+          <p class="reveal-item lbl detail-meta" id="detail-meta"></p>
+        </div>
+        <div class="reveal-mask">
+          <p class="reveal-item detail-synopsis-pt" id="detail-synopsis-pt"></p>
+        </div>
+        <div class="reveal-mask">
+          <p class="reveal-item detail-synopsis-en" id="detail-synopsis-en"></p>
+        </div>
+        <div class="reveal-mask">
+          <div class="reveal-item detail-actions" id="detail-actions"></div>
+        </div>
+        <div class="reveal-mask">
+          <button
+            type="button"
+            class="reveal-item lbl detail-scroll-cue"
+            id="detail-scroll-cue"
+          >
+            <span id="detail-scroll-cue-text">EXPLORAR DOSSIÊ</span>
+            <svg width="10" height="13" viewBox="0 0 10 13" fill="none" aria-hidden="true">
+              <path
+                d="M5 1V11.5M1.5 8L5 11.5L8.5 8"
+                stroke="currentColor"
+                stroke-width="1.25"
+                stroke-linecap="square"
+                stroke-linejoin="miter"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="detail-poster-col">
+        <div class="detail-poster-frame">
+          <svg
+            id="detail-poster-svg"
+            class="detail-poster-svg"
+            viewBox="0 0 504 900"
+            preserveAspectRatio="xMidYMid meet"
+            aria-hidden="true"
+          >
+            <defs>
+              <filter
+                id="ink-disp"
+                filterUnits="userSpaceOnUse"
+                x="-200"
+                y="-200"
+                width="904"
+                height="1300"
+              >
+                <feTurbulence
+                  type="fractalNoise"
+                  baseFrequency=".011"
+                  numOctaves="3"
+                  seed="7"
+                  result="noise"
+                />
+                <feDisplacementMap
+                  in="SourceGraphic"
+                  in2="noise"
+                  scale="120"
+                  xChannelSelector="R"
+                  yChannelSelector="G"
+                />
+              </filter>
+              <mask
+                id="ink-mask"
+                maskUnits="userSpaceOnUse"
+                x="-200"
+                y="-200"
+                width="904"
+                height="1300"
+              >
+                <rect x="-200" y="-200" width="904" height="1300" fill="black" />
+                <g filter="url(#ink-disp)" fill="white">
+                  <circle class="ink-blob" cx="160" cy="330" r="0" data-delay="0" />
+                  <circle class="ink-blob" cx="362" cy="600" r="0" data-delay="120" />
+                  <circle class="ink-blob" cx="266" cy="120" r="0" data-delay="220" />
+                  <circle class="ink-blob" cx="96" cy="760" r="0" data-delay="300" />
+                  <circle class="ink-blob" cx="425" cy="250" r="0" data-delay="360" />
+                  <circle class="ink-blob" cx="276" cy="860" r="0" data-delay="420" />
+                  <circle class="ink-blob" cx="245" cy="470" r="0" data-delay="180" />
+                </g>
+              </mask>
+            </defs>
+            <g id="poster-art" mask="url(#ink-mask)"></g>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="detail-dossier" id="detail-dossier">
+      <section
+        class="dossier-section"
+        id="dossier-challenge"
+        aria-labelledby="dossier-challenge-heading"
+      >
+        <div class="dossier-rule" aria-hidden="true"></div>
+        <header class="dossier-sec-header">
+          <div class="dossier-reveal-mask">
+            <h3 class="dossier-reveal-item lbl dossier-sec-heading" id="dossier-challenge-heading">
+              DESAFIO &amp; ABORDAGEM / CHALLENGE &amp; APPROACH
+            </h3>
+          </div>
+        </header>
+        <div class="dossier-two-col">
+          <article class="dossier-col">
+            <div class="dossier-reveal-mask">
+              <h4 class="dossier-reveal-item lbl dossier-col-label" id="dossier-challenge-label">
+                O DESAFIO
+              </h4>
+            </div>
+            <div class="dossier-reveal-mask">
+              <p class="dossier-reveal-item dossier-prose" id="dossier-challenge-body"></p>
+            </div>
+          </article>
+          <article class="dossier-col">
+            <div class="dossier-reveal-mask">
+              <h4 class="dossier-reveal-item lbl dossier-col-label" id="dossier-approach-label">
+                A ABORDAGEM
+              </h4>
+            </div>
+            <div class="dossier-reveal-mask">
+              <p class="dossier-reveal-item dossier-prose" id="dossier-approach-body"></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="dossier-section"
+        id="dossier-highlights"
+        aria-labelledby="dossier-highlights-heading"
+      >
+        <div class="dossier-rule" aria-hidden="true"></div>
+        <header class="dossier-sec-header">
+          <div class="dossier-reveal-mask">
+            <h3 class="dossier-reveal-item lbl dossier-sec-heading" id="dossier-highlights-heading">
+              PARTICULARIDADES / KEY HIGHLIGHTS
+            </h3>
+          </div>
+        </header>
+        <div class="dossier-highlights-grid" id="dossier-highlights-grid"></div>
+      </section>
+
+      <section
+        class="dossier-section"
+        id="dossier-architecture"
+        aria-labelledby="dossier-architecture-heading"
+      >
+        <div class="dossier-rule" aria-hidden="true"></div>
+        <header class="dossier-sec-header">
+          <div class="dossier-reveal-mask">
+            <h3
+              class="dossier-reveal-item lbl dossier-sec-heading"
+              id="dossier-architecture-heading"
+            >
+              ARQUITETURA &amp; FLUXO / SYSTEM ARCHITECTURE
+            </h3>
+          </div>
+        </header>
+        <div class="dossier-reveal-mask">
+          <div class="dossier-reveal-item dossier-arch-plate" id="dossier-arch-plate"></div>
+        </div>
+        <div class="dossier-reveal-mask">
+          <p class="dossier-reveal-item dossier-arch-summary" id="dossier-arch-summary"></p>
+        </div>
+      </section>
+
+      <section
+        class="dossier-section dossier-section-last"
+        id="dossier-gallery"
+        aria-labelledby="dossier-gallery-heading"
+      >
+        <div class="dossier-rule" aria-hidden="true"></div>
+        <header class="dossier-sec-header">
+          <div class="dossier-reveal-mask">
+            <h3 class="dossier-reveal-item lbl dossier-sec-heading" id="dossier-gallery-heading">
+              POR DENTRO DA APLICAÇÃO / INSIDE THE APP
+            </h3>
+          </div>
+        </header>
+        <div class="dossier-gallery-grid" id="dossier-gallery-grid"></div>
+      </section>
+    </div>
+  </section>
+
+  <section
+    id="about-sheet"
+    class="sheet about-sheet"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="about-title"
+    aria-hidden="true"
+  >
+    <header class="sheet-header">
+      <button type="button" id="about-close" class="lbl box sheet-close">FECHAR / CLOSE</button>
+      <div class="brand sheet-brand" aria-hidden="true">
+        <span class="brand-name">Bruno Vinícius</span>
+        <span class="brand-sub">PORTFÓLIO / ARCHIVE</span>
+      </div>
+      <span class="sheet-header-spacer" aria-hidden="true"></span>
+    </header>
+
+    <div class="about-grid">
+      <div class="about-col-bio">
+        <div class="reveal-mask">
+          <p class="reveal-item lbl about-kicker">COLOFÃO / ABOUT THE AUTHOR</p>
+        </div>
+        <div class="reveal-mask">
+          <h2 class="reveal-item sheet-title" id="about-title">Bruno Vinícius</h2>
+        </div>
+        <div class="reveal-mask">
+          <p class="reveal-item lbl about-location" id="about-location">ARARAQUARA, SÃO PAULO — BRASIL</p>
+        </div>
+        <div class="reveal-mask">
+          <p class="reveal-item detail-synopsis-pt" id="about-bio-pt"></p>
+        </div>
+        <div class="reveal-mask">
+          <p class="reveal-item detail-synopsis-en" id="about-bio-en"></p>
+        </div>
+        <div class="reveal-mask">
+          <div class="reveal-item about-contacts" id="about-contacts"></div>
+        </div>
+      </div>
+
+      <div class="about-col-index">
+        <div class="reveal-mask">
+          <h3 class="reveal-item lbl about-index-heading">ÍNDICE DO ACERVO / CATALOGUE INDEX</h3>
+        </div>
+        <ol class="about-index-list" id="about-index-list"></ol>
+      </div>
+    </div>
+  </section>
+
+  <section
+    id="gallery-lightbox"
+    class="lightbox"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="lightbox-title"
+    aria-hidden="true"
+  >
+    <header class="lightbox-header">
+      <button type="button" id="lightbox-close" class="lbl box lightbox-close">FECHAR / CLOSE</button>
+      <span class="lbl lightbox-counter" id="lightbox-counter" aria-live="polite">1 / 3</span>
+      <div class="lang-switch lightbox-lang" role="group" aria-label="Idioma / Language">
+        <button
+          type="button"
+          class="lbl lang-btn is-active"
+          data-lang="pt"
+          aria-pressed="true"
+        >PT</button>
+        <button
+          type="button"
+          class="lbl lang-btn"
+          data-lang="en"
+          aria-pressed="false"
+        >EN</button>
+      </div>
+    </header>
+
+    <div class="lightbox-body">
+      <button
+        type="button"
+        id="lightbox-prev"
+        class="lightbox-nav lightbox-prev"
+        aria-label="Prancha anterior / Previous plate"
+      >
+        <svg width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true">
+          <path
+            d="M17 5H1.5M5.5 1L1.5 5L5.5 9"
+            stroke="currentColor"
+            stroke-width="1.2"
+            stroke-linecap="square"
+            stroke-linejoin="miter"
+          />
+        </svg>
+      </button>
+
+      <figure class="lightbox-figure">
+        <div class="lightbox-media" id="lightbox-media"></div>
+        <figcaption class="lightbox-caption">
+          <div class="lightbox-caption-meta">
+            <span class="lbl lightbox-eyebrow" id="lightbox-eyebrow"></span>
+            <span class="lbl lightbox-tag" id="lightbox-tag"></span>
+          </div>
+          <h3 class="lightbox-title" id="lightbox-title"></h3>
+          <p class="lightbox-desc" id="lightbox-desc"></p>
+        </figcaption>
+      </figure>
+
+      <button
+        type="button"
+        id="lightbox-next"
+        class="lightbox-nav lightbox-next"
+        aria-label="Próxima prancha / Next plate"
+      >
+        <svg width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true">
+          <path
+            d="M1 5H16.5M12.5 1L16.5 5L12.5 9"
+            stroke="currentColor"
+            stroke-width="1.2"
+            stroke-linecap="square"
+            stroke-linejoin="miter"
+          />
+        </svg>
+      </button>
+    </div>
+  </section>
+
+  <div id="cursor" class="cursor" aria-hidden="true">
+    <div class="cursor-ring"></div>
+    <div class="cursor-dot"></div>
+    <div class="cursor-label">
+      <span>ABRIR</span>
+      <span>OPEN</span>
+    </div>
+  </div>
+
+  <script src="./src/artwork.js"></script>
+  <script src="./src/dossier.js"></script>
+  <script src="./src/engine.js"></script>
+</body>
+</html>
